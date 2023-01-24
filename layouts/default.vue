@@ -1,17 +1,17 @@
 <template>
   <div class="container">
-    <AppHeader/>
+    <AppHeader />
     <nuxt />
   </div>
 </template>
 
 <script>
-  import AppHeader from '../components/AppHeader';
-  export default {
-    components: {
-      AppHeader
-    }
-  }
+import AppHeader from '../components/AppHeader'
+export default {
+  components: {
+    AppHeader,
+  },
+}
 </script>
 
 <style scoped>
@@ -40,5 +40,4 @@ ul {
   padding: 1rem 2rem;
   background: #fff;
 }
-
 </style>

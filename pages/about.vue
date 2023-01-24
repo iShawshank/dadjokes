@@ -15,14 +15,12 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Best place for corny dad jokes'
-        }
-      ]
+          content: 'Best place for corny dad jokes',
+        },
+      ],
     }
-  }
+  },
 }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
